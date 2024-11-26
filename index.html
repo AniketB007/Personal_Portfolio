@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/82236ae23b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="Ab1.png" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p class="hello">Hello There !</p>
+                <h1>I'm <span>Aniket</span> Bourasee</h1>
+                <p class="web">Android Development Enthusiast</p>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- -----------------------------------------About------------------------------------------------------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="br.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p class="para">Hello! I am Aniket Bourase, an aspiring Android Developer from Nagpur, Maharashtra. I graduated in Electronics and Telecommunications Engineering in 2022. Over the course of my journey, I have developed a strong foundation in Java and Kotlin and have been actively building my skills in Android app development.</p>
+
+                        <p class="para">I am passionate about creating user-friendly, functional, and visually appealing mobile applications. My goal is to combine logical problem-solving with creativity to deliver seamless experiences for users. </p>
+                        
+                        <p class="para">In addition to my knowledge of Frontend and Backend technologies, I am constantly exploring new frameworks and tools that align with my passion for mobile development. I take pride in being a positive and curious learner, always seeking opportunities to grow and make an impact in the tech world.</p>
+
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('internship')">Trainings</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Technologies</span><br><br><span id="prog">Android (Java, Kotlin), iOS (SwiftUI), Firebase, REST APIs</span></li><br>
+                            <li><span>Testing</span><br><br><span id="prog">Appium, ADB, ExtentReports</span></li><br>
+                            <li><span>UI/UX</span><br><br><span id="prog">Animations, Custom Views, Adaptive Layouts </span></li><br>
+                            <li><span>Languages</span><br><br><span id="prog">Java, C, JavaScript </span></li><br>
+                            <li><span>FrontEnd</span><br><br><span id="prog">HTML5, CSS3, Bootstrap</span></li><br>
+                            <li><span>Database</span><br><br><span id="prog">MySQL, SQLite</span></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="internship">
+                        <ul>
+                            <li><span>Mobile App Development (August 2024- November 2024)</span><br><br><span
+                                id="prog">RPS Consultancy (WIPRO)</span></li><br>
+                            <li><span>Full Stack Java Development (December 2022- May 2023)</span><br><br><span
+                                    id="prog">Eduladdr Solutions</span></li><br>
+                            <li><span>IOT Project (June 2021-July 2021)</span><br><br><span id="prog">IOT Project
+                                    Development using Industry Grade Microcontroller.</span></li><br>
+                            <li><span>Intershala (2020)</span><br><br><span id="prog">Intershala Student Partner(Campus
+                                    Ambassador)</span></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor's of Engineering from RTMNU (2018-2022)</span><br><br><span
+                                    id="prog">Electronics and Telecommunications Engineering (8.86 SGPA)</span></li><br>
+                            <li><span>HSC Exam from Maharastra Board (2018)</span><br><br><span id="prog">Science
+                                    (60.9%)</span></li><br>
+                            <li><span>SSC Exam from Maharastra Board (2016)</span><br><br><span id="prog">General
+                                    (71%)</span></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------------------------------------------Services------------------------------------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub">My Projects</h1>
+            <div class="services-list">
+                <!-- Project 1: Fitness Tracker App -->
+                <div>
+                    <i class="fa-solid fa-running"></i>
+                    <h2>Fit Life Tracker App</h2>
+                    <p>The Fit Life Tracker App is an Android application designed to help users track their daily fitness activities like walking, running, swimming, and cycling. Users can create and manage their fitness profiles, monitor progress, and receive notifications to stay motivated. This app provides insightful data about daily, weekly, and monthly activity logs and allows users to set and track fitness goals.</p>
+                    <a href="Fit Life Tracker App.pdf" target="_blank">Learn more...</a>
+                </div>
+    
+                <!-- Project 2: Notes App -->
+                <div>
+                    <i class="fa-solid fa-sticky-note"></i>
+                    <h2>Notes App</h2>
+                    <p>This project is a note-making application built for Android using Kotlin. It utilizes Firebase for user authentication and data storage, allowing users to create, manage, and organize their notes securely. The app features user registration with email verification and data synchronization with Firebase Realtime Database.</p>
+                    <a href="My Notes Application.pdf" target="_blank">Learn more...</a>
+                </div>
+    
+                <!-- Project 3: Flashcards Learning App -->
+                <div>
+                    <i class="fa-solid fa-book-open"></i>
+                    <h2>Easy Learn - Flashcards App</h2>
+                    <p>The Flashcards App, titled “Easy Learn,” is an interactive educational app designed to help users learn the fundamentals of programming languages through a combination of flashcards, notes, and quizzes. The app supports four programming languages: C, C++, Java, and Python, and provides a comprehensive, step-by-step learning experience with progress tracking and result visualization.</p>
+                    <a href="Flashcards App Documentation.pdf" target="_blank">Learn more...</a>
+                </div>
+    
+                <!-- Project 4: Ecommerce App Testing Project -->
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>E-Commerce App Testing</h2>
+                    <p>This project involves performing automated testing on an e-commerce app, which is hosted on Sauce Labs. The testing is conducted using Appium, an open-source automation tool for mobile applications. The goal of this project is to ensure the functionality, performance, and usability of these applications on Android devices through various test scenarios.</p>
+                    <a href="Appium Capstone Project Documentation.pdf" target="_blank">Learn more...</a>
+                </div>
+    
+                <!-- Dummy Project 1 -->
+                <!-- <div>
+                    <i class="fa-solid fa-pen"></i>
+                    <h2>Project-5</h2>
+                    <p>This is a dummy project description. Add your project details here. The content can be anything related to app development, design, or testing.</p>
+                    <a href="#">Learn more...</a>
+                </div>
+    
+                Dummy Project 2
+                <div>
+                    <i class="fa-solid fa-camera"></i>
+                    <h2>Project-6</h2>
+                    <p>This is a dummy project description. Add your project details here. You can describe any other project you've worked on or have in mind to showcase your learning experience.</p>
+                    <a href="#">Learn more...</a>
+                </div>
+             -->
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- -----------------------------------------------Portfolio----------------------------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub">My Work</h1>
+            <div class="work-list">
+                <!-- Fitness Tracker App -->
+                <div class="work">
+                    <img src="six.jpg" alt="Fitness Tracker App"> <!-- Replace with your app image -->
+                    <div class="layer">
+                        <h3>Fit Life Tracker App</h3>
+                        <p>The Fit Life Tracker App helps users track daily fitness activities like walking, running, swimming, and cycling. Users can manage profiles, monitor progress, and set fitness goals.</p>
+                        <a href="Fitness_App_Demo.mp4" target="_blank"><i class="fa-solid fa-running"></i> View Project</a>
+                    </div>
+                </div>
+    
+                <!-- Notes App -->
+                <div class="work">
+                    <img src="four.jpg" alt="Notes App"> <!-- Replace with your app image -->
+                    <div class="layer">
+                        <h3>Notes App</h3>
+                        <p>A note-making application built using Kotlin and Firebase for user authentication and data synchronization. Users can create and manage notes securely.</p>
+                        <a href="MyNotesApplicartion_Demo.mp4" target="_blank"><i class="fa-solid fa-sticky-note"></i> View Project</a>
+                    </div>
+                </div>
+    
+                <!-- Flashcards Learning App -->
+                <div class="work">
+                    <img src="five.jpg" alt="Flashcards App"> <!-- Replace with your app image -->
+                    <div class="layer">
+                        <h3>Easy Learn - Flashcards App</h3>
+                        <p>An educational app that helps users learn programming languages with flashcards, notes, and quizzes. It supports C, C++, Java, and Python.</p>
+                        <a href="Flashcards_App_Demo.mp4" target="_blank"><i class="fa-solid fa-book-open"></i> View Project</a>
+                    </div>
+                </div>
+    
+                <!-- Ecommerce App Testing Project -->
+                <div class="work">
+                    <img src="two.jpg" alt="Ecommerce App Testing"> <!-- Replace with your app image -->
+                    <div class="layer">
+                        <h3>Ecommerce App Testing</h3>
+                        <p>This project involves automated testing of an e-commerce app using Appium, hosted on Sauce Labs, to ensure functionality and performance on Android devices.</p>
+                        <a href="Ecommerce_App_Testing_Demo.mp4" target="_blank"><i class="fa-solid fa-laptop-code"></i> View Project</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    
+
+    <!-- ------------------------------------------------------Contact Form------------------------------------- -->
+    <!-- Contact Form Section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-envelope"></i> aniketbourasee07@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +91-9112319964</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/aniket-bourasee-60498718b" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://t.me/AniB007" target="_blank"><i class="fa-solid fa-paper-plane"></i></a>
+                    <a href="https://www.instagram.com/aniket_bourasee/" target="_blank"><i
+                            class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.facebook.com/aniket.b.94" target="_blank"><i
+                            class="fa-brands fa-square-facebook"></i></a>
+                </div>
+                <a href="Aniket_Bourasee_Resume.pdf" target="_blank" download="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" id="contact-form">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" placeholder="Your Message" rows="6" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Made by AniketB <i class="fa-solid fa-circle-user"></i></p>
+    </div>
+</div>
+
+<script>
+    // Form Submission to Google Sheets
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyUfLzC8v9LynNfQVhqm4U6bKBPlOpGk9m0Qfqwn7jAoZElnsb7jw-Vef7KWdZqFZmS5A/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+
+    form.addEventListener('submit', function (e) {
+        e.preventDefault(); // Prevent the default form submission
+        fetch(scriptURL, { 
+            method: 'POST', 
+            body: new FormData(form) 
+        })
+        .then(response => {
+            // On success
+            msg.innerHTML = "Message sent Successfully!";
+            msg.style.color = "green";
+            setTimeout(function () {
+                msg.innerHTML = ""; // Clear message after 5 seconds
+            },500);
+            form.reset(); // Reset the form fields
+        })
+        .catch(error => {
+            // On error
+            console.error('Error!', error.message);
+            msg.innerHTML = "There was an error sending your message.";
+            msg.style.color = "red";
+        });
+    });
+
+    function opentab(tabname) {
+        // Get all tab links and remove the 'active-link' class
+        const tabLinks = document.querySelectorAll('.tab-links');
+        tabLinks.forEach(link => link.classList.remove('active-link'));
+    
+        // Get all tab contents and remove the 'active-tab' class
+        const tabContents = document.querySelectorAll('.tab-contents');
+        tabContents.forEach(content => content.classList.remove('active-tab'));
+    
+        // Add 'active-link' to the clicked tab and 'active-tab' to the corresponding content
+        document.querySelector(`.tab-links[onclick="opentab('${tabname}')"]`).classList.add('active-link');
+        document.getElementById(tabname).classList.add('active-tab');
+    }
+
+    function openmenu() {
+        document.getElementById("sidemenu").style.right = "0";
+    }
+    
+    function closemenu() {
+        document.getElementById("sidemenu").style.right = "-200px";
+    }
+    
+    
+</script>
+
+
+</body>
+
+</html>
